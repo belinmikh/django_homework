@@ -1,0 +1,44 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Сад и огород",
+      "description": "Товары для ведения загородного хозяйства"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Канцелярия",
+      "description": "Пишущие предметы, бумага, прочие офисные принадлежности"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Грабли",
+      "description": "Устройство для разрыхления почвы",
+      "image": "",
+      "price": 2000,
+      "created_at": "2024-11-24",
+      "updated_at": "2024-11-24",
+      "category": 1
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Тетрадь",
+      "description": "Зелёная обложка, 96 страниц",
+      "image": "",
+      "price": 195,
+      "created_at": "2024-11-24",
+      "updated_at": "2024-11-24",
+      "category": 2
+    }
+  }
+]
